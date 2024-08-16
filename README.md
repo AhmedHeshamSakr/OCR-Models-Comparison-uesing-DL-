@@ -65,22 +65,10 @@ The dataset was split into training, validation, and testing sets:
 ## Installation
 To run this project locally, clone the repository and install the necessary dependencies:
 ```bash
-git clone https://github.com/yourusername/ocr-character-recognition.git
+git clone https://github.com/AhmedHeshamSakr/OCR-Models-Comparison-uesing-DL-.git
 cd ocr-character-recognition
 pip install -r requirements.txt
 ```
-
-## Usage
-1. Prepare the dataset as described in the project.
-2. Run the training script to train the models:
-   ```bash
-   python train.py
-   ```
-3. Evaluate the models using the evaluation script:
-   ```bash
-   python evaluate.py
-   ```
-4. Compare the results to determine the most effective model.
 
 ## Results
 The project found that DenseNet121 outperforms other architectures in classifying the augmented character images, making it the most effective model for this specific task.
