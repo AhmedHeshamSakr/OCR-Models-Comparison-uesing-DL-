@@ -13,7 +13,7 @@ This project provides a comparative analysis of several state-of-the-art Convolu
 8. [Installation](#installation)
 9. [Usage](#usage)
 10. [Results](#results)
-11. [License](#license)
+
 
 ## Introduction
 This project aims to identify the most effective CNN architecture for classifying images of augmented characters. By leveraging a comprehensive dataset and implementing various data augmentations, the study evaluates the performance of different CNN models based on metrics like accuracy, precision, recall, and F1-score.
@@ -73,9 +73,4 @@ pip install -r requirements.txt
 ## Results
 The project found that DenseNet121 outperforms other architectures in classifying the augmented character images, making it the most effective model for this specific task.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-Feel free to contribute to this project by submitting issues or pull requests. Your feedback and improvements are always welcome!
